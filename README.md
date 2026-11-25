@@ -3,6 +3,12 @@
 Assignment 3 of **INFOMDW Data Wrangling**, MSc Applied Data Science, Utrecht University (2026–27).
 Group 8: Theodora Kyriakou, Satyam Kumar, Sultonbek Abdulloev, Sonja Wellman.
 
+<p align="center"><img src="docs/etl.png" width="420" alt="ETL flow: extract into staging, transform, load with lineage, catch problems in rejected and conflict tables"></p>
+
+## My contribution
+
+I built the Task 2 data integration: the staging tables, the transformation of names, dates and heights into one format, the club mapping, the lineage table, the rejected and conflict_log tables, and the bad-data tests that check the ETL fails safely.
+
 Everything runs from one notebook: [`group8_assignment3.ipynb`](group8_assignment3.ipynb). The full write-up is in [`report/Report_Group8_Assignment3.pdf`](report/Report_Group8_Assignment3.pdf).
 
 ## Task 1: Record matching (DBLP vs ACM)
